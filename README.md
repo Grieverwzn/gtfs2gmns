@@ -5,6 +5,8 @@ The open-source Python code (GTFS2GMNS) is released to facilitate researchers an
 
 Your comments will be valuable for code review and improvement. Please feel free to add your comments to our Google document of GTFS2GMNS Users' Guide.
 
+<img width="1284" height="490" alt="image" src="https://github.com/user-attachments/assets/9a891d25-6862-4157-9945-68b44093b19d" />
+
 Getting Started
 ## 1. Download GTFS Data
 On the TransitFeed homepage, users can browse and download official GTFS feeds from around the world. Make sure that the following files are present, so that we can proceed.
