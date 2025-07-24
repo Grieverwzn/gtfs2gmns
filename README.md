@@ -22,17 +22,19 @@ GTFS2GMNS can handle the transit data from several agencies. Users need to confi
 
 Convert GTFS Data into GMNS Format
 ## 2. Read GTFS data
-Step 2.1: Read routes.txt
+### Step 2.1: Read routes.txt
 
 route_id, route_long_name, route_short_name, route_url, route_type
-Step 2.2: Read stop.txt
+
+### Step 2.2: Read stop.txt
 
 stop_id, stop_lat, stop_lon, direction, location_type, position, stop_code, stop_name, zone_id
-Step 2.3: Read trips.txt
+
+### Step 2.3: Read trips.txt
 
 trip_id, route_id, service_id, block_id, direction_id, shape_id, trip_type
 and create the directed_route_id by combining route_id and direction_id
-Step 2.4: Read stop_times.txt
+### Step 2.4: Read stop_times.txt
 
 trip_id, stop_id, arrival_time, deaprture_time, stop_sequence
 
@@ -61,10 +63,10 @@ Add an exit link from the route stop node to the physical node. As they both con
 ### Step 3.3 Create boarding and decoarding arcs
 
 Add links between each physical node and the corresponding route stop vertices.
-Step 3.4 Create transferring arcs
+### Step 3.4 Create transferring arcs
 
 Add transferring links between physical nodes of different modes.
-Step 3.5 Create service arcs
+### Step 3.5 Create service arcs
 
 Add service links between each route stop pair of each trip
 ## 4. Output
@@ -74,23 +76,31 @@ The output files include node.csv and link.csv.
 You can visualize generated networks using NeXTA or QGIS.
 
 # Examples 1 (Transit Assignment in the DC-Maryland-Virginia (DMV) Metropolitan area): 
-Transit service network in DC-Maryland-Virginia Metropolitan area (illustrated using QGIS)
+### Transit service network in DC-Maryland-Virginia Metropolitan area (illustrated using QGIS)
 <img width="844" height="493" alt="image" src="https://github.com/user-attachments/assets/21bb8e04-29cc-4773-8613-ed936d2abf61" />
-Transit assignment on metro lines (analysis period AM from 6：00 AM to 9:00 AM)
+
+### Transit assignment on metro lines (analysis period AM from 6：00 AM to 9:00 AM)
 <img width="897" height="550" alt="image" src="https://github.com/user-attachments/assets/2279778c-4f26-492a-a919-c2419c593ed5" />
-Transit assignment on bus lines (analysis period AM from 6：00 AM to 9:00 AM)
+
+### Transit assignment on bus lines (analysis period AM from 6：00 AM to 9:00 AM)
 <img width="796" height="544" alt="image" src="https://github.com/user-attachments/assets/9b052070-e8a4-40fc-a3b6-2f679876ec44" />
-Transit assignment on AMTRAK rail lines (analysis period AM from 6：00 AM to 9:00 AM)
+
+### Transit assignment on AMTRAK rail lines (analysis period AM from 6：00 AM to 9:00 AM)
 <img width="760" height="522" alt="image" src="https://github.com/user-attachments/assets/db113ace-4301-47f8-97af-ab1b53fdf138" />
-Boarding in the illustrative region
+### Boarding in the illustrative region
 <img width="526" height="517" alt="image" src="https://github.com/user-attachments/assets/4786600a-db29-4af0-843c-7e8620f84a2b" />
+
+
 Note: The figures are generated during the project The Northern Virginia Transportation Authority (NVTA) TransAction when the author worked in Arizona State University (ASU)
+
 # Examples 2 (Transit accessibiltiy analysis in the Philadaphia Metropolitan area): 
-Transit service network in the Philadephia Metropolitan area, SEPTA network (illustrated using QGIS)
+### Transit service network in the Philadephia Metropolitan area, SEPTA network (illustrated using QGIS)
 <img width="977" height="686" alt="image" src="https://github.com/user-attachments/assets/fd02a472-1fe0-44cc-b2b9-ca8de4bd96a9" />
-Zone based transit accessibility calculated through the transit service network
+
+### Zone based transit accessibility calculated through the transit service network
 <img width="886" height="587" alt="image" src="https://github.com/user-attachments/assets/9701440b-31bb-4132-ba3e-f3e60ea8accb" />
-The improvement of transit accessibility after subsidy allocations to improve the fairness of the transit accessibility 
+
+### The improvement of transit accessibility after subsidy allocations to improve the fairness of the transit accessibility 
 <img width="780" height="573" alt="image" src="https://github.com/user-attachments/assets/ef5de1e8-978d-4431-9ba9-68da563fb3e1" />
 
 Note: The figures are generated during the project of Enhanced Mobility Innovation （EMI） with Software-Based Solutions for Smart and Equitable Travel Demand Managementwhen the author worked in Villanova University (ASU)
