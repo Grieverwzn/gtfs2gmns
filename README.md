@@ -87,7 +87,9 @@ You can visualize generated networks using NeXTA or QGIS.
 
 ### Transit assignment on AMTRAK rail lines (analysis period AM from 6：00 AM to 9:00 AM)
 <img width="760" height="522" alt="image" src="https://github.com/user-attachments/assets/db113ace-4301-47f8-97af-ab1b53fdf138" />
+
 ### Boarding in the illustrative region
+
 <img width="526" height="517" alt="image" src="https://github.com/user-attachments/assets/4786600a-db29-4af0-843c-7e8620f84a2b" />
 
 
