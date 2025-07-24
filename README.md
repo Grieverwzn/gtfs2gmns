@@ -1,5 +1,5 @@
-# gtfs2gmns
- light-weight conversion from GTFS data format to GMNS data format 
+# GTFS2GMNS
+Light-weight conversion from GTFS data format to GMNS data format 
 
 The open-source Python code (GTFS2GMNS) is released to facilitate researchers and planners in constructing multi-modal transit networks easily from the generic General Transit Feed Specification (GTFS) to the network modeling format in General Modeling Network Specification (GMNS). The converted physical and service networks in GMNS format are more convenient for network modeling tasks such as transit network routing, traffic flow assignment, simulation and service network optimization.
 
