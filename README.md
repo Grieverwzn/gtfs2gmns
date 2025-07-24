@@ -105,4 +105,4 @@ Note: The figures are generated during the project The Northern Virginia Transpo
 ### The improvement of transit accessibility after subsidy allocations to improve the fairness of the transit accessibility 
 <img width="780" height="573" alt="image" src="https://github.com/user-attachments/assets/ef5de1e8-978d-4431-9ba9-68da563fb3e1" />
 
-Note: The figures are generated during the project of Enhanced Mobility Innovation （EMI） with Software-Based Solutions for Smart and Equitable Travel Demand Managementwhen the author worked in Villanova University (ASU)
+Note: The figures are generated during the project of Enhanced Mobility Innovation （EMI） with Software-Based Solutions for Smart and Equitable Travel Demand Managementwhen the author worked in Villanova University (VU)
